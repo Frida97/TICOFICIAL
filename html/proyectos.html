@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<title>TIC</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../proyectos.css">
+<body id="myPage">
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="Inicio.html" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Inicio</a>
+  <a href="proyectos.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Proyectos</a>
+  <a href="lineas de investigacion.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Lineas de Investigación</a>
+  <a href="Pageventos.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Eventos</a>
+  <a href="publicaciones-y-congresos.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Publicaciones y Congresos</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Investigadores <i class="fa fa-caret-down"></i></button>
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button">Dr. Ostos</a>
+      <a href="#" class="w3-bar-item w3-button">Dr. Félix</a>
+      <a href="#" class="w3-bar-item w3-button">Dr. Mena</a>
+    </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+ <!-- Navbar on small screens -->
+ <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+	   <a href="#team" class="w3-bar-item w3-button">Proyectos</a>
+	   <a href="#work" class="w3-bar-item w3-button">Ciencia</a>
+	   <a href="#pricing" class="w3-bar-item w3-button">Eventos</a>
+	   <a href="#contact" class="w3-bar-item w3-button">Contactanos</a>
+	   <a href="#" class="w3-bar-item w3-button">Buscar</a>
+ </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity"style="width:100%;height:250px;overflow:hidden;">
+  <img src="../Fotos/Proyectos/portada.jpg" alt="Imagen de portada" width="100%"position="absolute">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">
+	<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">UPSIN</button>
+  </div>
+</div>
+<div id="projects">
+  <h1 id="title">Proyectos</h1>
+  <button onclick="myFunction('proyecto1')" class="w3-button w3-block w3-black w3-left-align btn-project" title="Desarrollo de aplicaciones móviles para apoyar los servicios del sector salud (PROMEP/IDCA/9683 – $285,000)">Desarrollo de aplicaciones móviles para apoyar los servicios del sector salud (PROMEP/IDCA/9683 – $285,000)</button>
+  <div id="proyecto1" class="acordion w3-hide w3-show">
+	<table class="tabla-proyectos">
+	<tr>
+	<td class="primer-columna"><img class="img" src="../Fotos/proyectos/appMovil-servicioSalud.jpg" alt="Imagen representativa del proyecto" width="200px" height="200px"></td>
+		<td>
+			<p class="project-text">El objetivo fundamental es desarrollar aplicaciones innovadoras de servicios móviles con el propósito de ayudar a
+			mejorar la eficiencia en la gestión y la equidad en el acceso a nuestros sistemas de salud. Dichas aplicaciones estarán
+			orientadas a atender parte de las demandas específicas de salud del país, a través del desarrollo de servicios móviles
+			para <b>i)</b> la prevención de enfermedades cardiovasculares, consideradas la principal causa de mortalidad en México, <b>ii)</b>
+			la detección de cáncer en la piel, que ocupa el tercer lugar como causa de muerte por cáncer en la población general,
+			y la primera causa de muerte por cáncer en los hombres, <b>iii)</b> el monitoreo de campañas sanitarias, ya que el costo
+			estimado  durante la pandemia de influenza A H1N1 en 2009 fue aproximadamente de US$ 355 millones, el cual pudo
+			reducirse significativamente si se hubiese contado con un sistema moderno y eficiente de monitoreo epidemiológico y
+			<b>iv)</b> la implementación de herramientas de realidad virtual, las cuales mediante el uso de imágenes o modelos
+			tridimensionales pueden dar a conocer de manera eficiente las instalaciones y servicios de salud pública que ofrece un
+			organismo sanitario, lo que sin duda alguna constituye un valor agregado, ya que se elimina la barrera geográfica y
+			facilita el acceso a un servicio especifico.</p>
+			<p><b>Participantes: </b>No sé cual es el documento de esto la neta</p>
+		</td>
+	  </tr>
+	  <tr>
+		<!--<td colspan="2" class="pdf">
+			<p class="button">
+				<button class="w3-button w3-round w3-teal" onclick="open_modal('URL')">Ver PDF</button>
+			</p>
+		</td>-->
+  </tr>
+	</table>
+  </div>
+  <button onclick="myFunction('proyecto2')" class="w3-button w3-block w3-black w3-left-align btn-project" title="Estudio de la variabilidad de la presión arterial como predictor de riesgo cardiovascular independiente (PROMEP/103-5/11/4145 – $321,834)">Estudio de la variabilidad de la presión arterial como predictor de riesgo cardiovascular independiente (PROMEP/103-5/11/4145 – $321,834)</button>
+  <div id="proyecto2" class="acordion w3-hide w3-show">
+	<table class="tabla-proyectos">
+	<tr>
+		<td class="primer-columna"><img class="img"src="../Fotos/proyectos/variabilidadPresionArterial.jpg" alt="Imagen representativa del proyecto" width="300" height="238px"></td>
+		<td>
+			<p class="project-text">En este proyecto se propone realizar un estudio de la variabilidad de la presión arterial (VPA) como predictor
+	  		cardiovascular independiente, a partir de la Base de Datos Internacional de Presión Arterial Ambulatoria en relación
+	  		a Eventos Cardiovasculares (IDACO), que incluye estudios longitudinales desarrollados por 11 centros de investigación
+	  		de diferentes países, y contiene el historial médico cardiovascular de 12,722 participantes durante más de 11 años de
+	  		seguimiento clínico, basado en un análisis inteligente de los datos a través de técnicas de minería de datos. Este
+	  		proyecto de investigación parte de la hipótesis de que no solo el índice de variabilidad seleccionado es un factor
+	  		elevante para estimar el valor pronóstico de la VPA, sino también, el número de lecturas de PA consideradas para calcular
+	  		lecturas de PA considerados afecta el valor pronóstico de la VPA?, ¿En qué medida lo afecta? y ¿Cuál sería el rango mínimo
+	  		la VPA. En este sentido, las preguntas que se pretenden contestar con esta investigación son ¿Si el número de medida de
+	  		de lecturas de PA necesario para calcular la VPA sin pérdida significativa de su valor pronóstico?. Responder a estas
+	  		preguntas permitirá contribuir a determinar el valor clínico de la VPA como predictor cardiovascular independiente, de tal
+	  		forma que se pueda avanzar en la estimación de umbrales diagnósticos de una VPA anormal, y en el 	desarrollo futuro de
+	  		fármacos que permitan controlarla, ayudando así a la prevención de la ocurrencia de eventos cardiovasculares.</p>
+			<p id="participantes"><b>Participantes: </b>Luis J. Mena, Gladys E. Maestre, Tine W. Hansen, Lurgarde 	Thijs, José Boggia, Yanping Liu,
+  				<a class="links-ver" id="see-more-proyecto1" onclick="see_more('proyecto1')">Ver más</a>
+  				<p id="txt-sm-proyecto1" style="display:none;">Yan Li, Masahiro Kikuya, Kristina Björklund-Bodeg</p>
+	  			<a class="links-ver" id="see-less-proyecto1" style="display:none;"onclick="see_more('proyecto1')">Ver 	menos</a>
+			</p>
+	  </td>
+	  </tr>
+	  <tr>
+		<td colspan="2" class="pdf">
+			<p class="button">
+				<button class="w3-button w3-round w3-teal btn-large-pdf" onclick="open_modal('../PDFs/2014HowManyMeasurementsareNeededtoEstimateBloodPressureVariabilityWithoutLossofPrognosticInformation.pdf')">Ver PDF</button>
+			</p>
+		</td>
+		<td class="pdf">
+			<p>
+				<button class="w3-button w3-round w3-teal btn-small-pdf" onclick="location.href='../PDFs/2014HowManyMeasurementsareNeededtoEstimateBloodPressureVariabilityWithoutLossofPrognosticInformation.pdf';">Ver PDF</button>
+			</p>
+		</td>
+	  </tr>
+	</table>
+  </div>
+</div>
+
+<div id="id01" class="w3-modal">
+   <div class="w3-modal-content w3-animate-zoom" >
+	   <iframe id="frame"src="" width="900" height="550"></iframe>
+	 <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+	   <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-right w3-teal">Aceptar</button>
+	 </div>
+   </div>
+ </div>
+</div>
+<!--<iframe src="http://localhost/TIC/PDFs/2014HowManyMeasurementsareNeededtoEstimateBloodPressureVariabilityWithoutLossofPrognosticInformation.pdf" style="border:none;"></iframe>-->
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center"style="margin-top:120px;">
+  <h4>Contactanos</h4>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+	<span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>
+	<a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+	<i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+</body>
+<script src="../proyectos.js"></script>
+</html>

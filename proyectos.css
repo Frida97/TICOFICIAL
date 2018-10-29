@@ -1,0 +1,86 @@
+#title{
+
+  background-color: #009688;
+  color: white;
+  text-align: center;
+  margin: 0px;
+}
+#projects{
+  background-color: black;
+}
+.project-text{
+  padding-right: 20px;
+}
+p:not(.button){
+  text-align: justify;
+}
+body{
+  background-color: #f1f1f1;
+}
+.tabla-proyectos td{
+  background-color: #f1f1f1;
+}
+
+.tabla-proyectos{
+  border-spacing: 0px;
+}
+
+.primer-columna{
+  width: 33%;
+}
+.img{
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+}
+#participantes{
+  display: inline;
+}
+
+@media(min-width: 0) and (max-width: 800px) {
+  .tabla-proyectos td{
+	display: table-row;
+  }
+  .tabla-proyectos .pdf{
+	display: block;
+  }
+  .btn-large-pdf{
+	display: none;
+  }
+  .btn-small-pdf{
+	display: inline-block;
+  }
+  .btn-project{
+	white-space: normal;
+  }
+}
+
+@media(min-width: 801px) {
+  .btn-large-pdf{
+	display: inline-block;
+  }
+
+  .btn-small-pdf{
+	display: none;
+  }
+ .w3-modal{
+  padding-top: 15px;
+ }
+}
+
+.links-ver{
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.pdf{
+  text-align: center;
+}
+.acordion{
+  background-color: #B7B7B7;
+  margin: 0px;
+}
+
+p{
+
+}
