@@ -1,0 +1,10 @@
+.w3-quarter{
+    width: 100%;
+    text-align: justify;
+}
+.w3-quarter h2{
+    text-align:center;
+}
+.w3-quarter p{
+    padding: 20px 10px;
+}
