@@ -8,3 +8,13 @@
 .w3-quarter p{
     padding: 20px 10px;
 }
+.parrafo1{
+    width: 50%;
+    float: left;
+    
+}
+.parrafo2{
+    width: 50%;
+    float: right;
+
+}
