@@ -10,12 +10,14 @@
 }
 .project-text{
   padding-right: 20px;
+  background-color: #f1f1f1;
+  
 }
 p:not(.button){
   text-align: justify;
 }
 body{
-  background-color: #f1f1f1;
+  background-color: #1a1334;
 }
 .tabla-proyectos td{
   background-color: #f1f1f1;
